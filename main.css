@@ -1,0 +1,47 @@
+body{
+    background-color: burlywood;
+}
+/* 1*/
+h1{
+    text-align: center;
+}
+/* 2*/
+h2{
+    text-justify: auto;
+}
+
+/* rule-set #1: All the li items within Burgers class will have a blue font. */
+.Burgers li{
+    color: blue
+}
+/* rule-set #2: Everything within a Burgers class will have a lightgray bbackground. */
+.Burgers {
+    background-color: lightgray;
+}
+/* rule-set #3: all of the p tags within a Burgers class will have a red font 16pixels high. */
+.Burgers {
+    font-size: 16px;
+    color: red;
+}
+/* rule-set #1 */
+#drink1 {
+    color: green;
+}
+/* rule-set #1 */
+#drink2 {
+    color: green;
+}
+dt{
+    font-weight: bold;
+    font-size: 20px;
+}
+/* 7 */
+table, th,td{
+    border: 1px solid black;
+}
+.sandwiches{
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+}
+
